@@ -1,0 +1,391 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/product style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+       <!-- Favicon -->
+       <link
+       rel="apple-touch-icon"
+       sizes="180x180"
+       href="./images/favicon_io/apple-touch-icon.png"
+   />
+   <link
+       rel="icon"
+       type="image/png"
+       sizes="32x32"
+       href="./images/favicon_io/favicon-32x32.png"
+   />
+   <link
+       rel="icon"
+       type="image/png"
+       sizes="16x16"
+       href="./images/favicon_io/favicon-16x16.png"
+   />
+   <link rel="manifest" href="./images/favicon_io/site.webmanifest" />
+
+</head>
+<body>
+<div class="copy">
+    <nav class="nav">
+        <div class="nav-center section-center-2 nav-top">
+            <div class="nav-icons">
+                <a href="#" class="right">
+                    <i class="bi bi-pin "></i>
+                    <h3>قالب سنجاق</h3>
+                </a>
+                
+                <div class="search-menu section-center">
+                    <div class="search-con">
+                        <input type="text" placeholder="جستجو...">
+        
+                        <div class="search-icon">
+                            <i class="bi bi-search"></i>
+                        </div>
+        
+                    </div>
+                </div>
+    
+                <div class="left">
+                    <div class="shop-cart t-con">
+                        <a href=""><i class="bi bi-cart-dash"></i></a>
+                        <p class="icon-title">سبد خرید شما</p>
+                    </div>
+                    <div class="person t-con">
+                        <a href="./form.html" class="form-go"></a>
+                        <a><i class="bi bi-person-circle"></i></a>
+                        <p class="icon-title">ورود کاربران</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </nav>
+    
+    <nav class="nav-2">
+        <div class="section-center-2 nav-bottom">
+    
+            <a href="#" class="right" 
+        transition: var(--fast-transition);
+            onclick="document.getElementById('sidebar').style.transform='translatex(0)' ,
+                document.getElementById('sidebar-bgcolor').style.display='block'"
+            >
+                <i class="bi bi-list"></i>
+            </a>
+            
+            <ul class="navbar">
+                <li class="navbar-item">
+                    <a href="">خانه</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">متن</a>
+                    <div class="border"></div>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">گالری تصاویر</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">فرم دریافت اطلاعات</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">وبلاگ</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">فروشگاه</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">امکانات</a>
+                    <div class="border"></div>
+                </li>
+    
+                <li class="navbar-item">
+                    <a href="">قالب سفارشی</a>
+                    <div class="border"></div>
+                </li>
+            </ul>
+    
+            <div class="left">
+                <a href="#">
+                    <i class="bi bi-telephone"></i>
+                </a>
+                <p>02100000000</p>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <aside class="sidebar" id="sidebar">
+        <article class="top">
+            <i class="bi bi-pin "></i>
+    
+            <div class="i-con"
+            onclick="document.getElementById('sidebar').style.transform='translatex(100%)' ,
+            
+            document.getElementById('sidebar-bgcolor').style.display='none'">
+                <i class="bi bi-x "></i>
+            </div>
+        </article>
+        <article class="options">
+            <ul>
+                <li class="option">
+                    <a href="">خانه</a>
+                </li>
+    
+                <li class="option">
+                    <a href="">متن</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">گالری تصاویر</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">فرم دریافت اطلاعات</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">وبلاگ</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">فروشگاه</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">امکانات</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+    
+                <li class="option">
+                    <a href="">قالب سفارشی</a>
+                    <i class="bi bi-caret-down-fill"></i>
+                </li>
+            </ul>
+        </article>
+    </aside>
+    <div class="sidebar-bgcolor" id="sidebar-bgcolor"></div>
+</div>
+
+<main class="main">
+    <div class="main-center section-center-2 bg-white">
+        <div class="p-1 menu-address">
+            <i class="bi bi-house-fill"></i>
+            <a href="#" class="like">خانه</a>
+            
+            <i class="bi bi-chevron-left"></i>
+            <a href="#" class="like">فهرست محصولات</a>
+            
+            <i class="bi bi-chevron-left"></i>
+            <a href="#">نمونه محصول بدون دیدگاه و امکان ارسال</a>
+            
+        </div>
+        <div class="underline"></div>
+
+        <div class="p-2 introduction">
+            <img src="./images/product/img-1.jpg" alt="">
+
+            <div class="img-con">
+                <i class="bi bi-chevron-right"></i>
+                <img src="./images/product/img-2.webp" alt="img-2">
+                <img src="./images/product/img-3.webp" alt="img-3">
+                <img src="./images/product/img-4.webp" alt="img-1">
+                <i class="bi bi-chevron-left"></i>
+            </div>
+            <div class="info">
+                <h2>نمونه محصول بدون دسته‌بندی</h2>
+                <div class="i-con">
+                    <i class="bi bi-star-fill av"></i>
+
+                    <div class="hov-icon hi1">
+                        <i class="bi bi-star-fill fill"></i>
+                        <i class="bi bi-star empty"></i>
+                    </div>
+                    <div class="hov-icon hi2">
+                        <i class="bi bi-star-fill fill"></i>
+                        <i class="bi bi-star empty"></i>
+                    </div>
+                    <div class="hov-icon hi3">
+                        <i class="bi bi-star-fill fill"></i>
+                        <i class="bi bi-star empty"></i>
+                    </div>
+                    <div class="hov-icon hi4">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>از ۳</p>
+                </div>
+                <div class="underline"></div>
+
+                <div class="price">
+                    <p>12,500,000</p>
+                    <del>13,200,000</del>
+                </div>
+                <div class="btns">
+                    <button class="cart">
+                        <i class="bi bi-cart-fill asd"></i>
+                        افزودن به سبد خرید
+                    </button>
+                
+                    <button class="comparison">
+                        <i class="bi bi-3-circle"></i>
+                    </button>
+                    <a href="" class="heart">
+                        <i class="bi bi-heart"></i>
+                        افزودن به لیست علاقمندی‌ها
+                    </a>
+                </div>
+
+            </div>
+            <div class="underline"></div>
+            
+        </div>
+        
+        <div class="p-3 about">
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </p>
+        </div>
+
+        <div class="p-4 options">
+            <ul>
+                <li><button href="#" class="op-btn">نقد و بررسی</button></li>
+                <li><button href="#" class="op-btn">مشخصات</button></li>
+                <li><button href="#" class="op-btn">دیدگاه‌ها</button></li>
+            </ul>
+            <div class="underline"></div>
+        </div>
+
+        <div class="p-5 paragraphs">
+            <p class="par-1">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                <span class="red">
+                    برای شرایط فعلی تکنولوژی 
+                </span>
+                 مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                 <b>
+                     چاپگرها و متون بلکه روزنامه
+                 </b>
+                   و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                   <del>
+                       مورد نیاز و کاربردهای
+                   </del>
+                     متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع 
+                <ins>
+                    با هدف بهبود ابزارهای کاربردی می باشد.
+                </ins>
+            </p>
+
+            <div class="par-2 per-s">
+                <h3>سرتیتر بزرگ از نوع h1</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+            </div>
+
+            <div class="par-3 per-s">
+                <h3>سر تیتر h2</h3>
+                <p class="bg-p">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <br>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <div class="underline"></div>
+            </div>
+
+            <div class="per-4">
+                <h4>سرتیتر درشت</h4>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <ul>
+                    <li>گزینه ی اول فهرست بدون شماره</li>
+                    <li>گزینه ی دوم برای نمونه</li>
+                    <li>گزینه ی سود</li>
+                    <li>الی آخر...</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<div class="copy">
+    <footer class="bg-dark footer">
+        <div class="section-center-2 footer-center">
+            
+            <div class="p1">
+                <div class="right">
+                    <h4>دسترسی سریع</h4>
+
+                    <div class="menu">
+                        <a href="#">خانه</a>
+                        <a href="#">امکانات</a>
+                        <a href="#">قالب سفارشی</a>
+                    </div>
+                </div>
+                <div class="left">
+                    <h4>لینک های مفید</h4>
+
+                    <div class="menu">
+                        <a href="#">خانه</a>
+                        <a href="#">امکانات</a>
+                        <a href="#">قالب سفارشی</a>
+                
+                    </div>
+                </div>
+            </div>
+
+            <div class="p2">
+                <div class="p2-1 ">
+                    <h4>عنوان محتوای سفارشی</h4>
+                    <p> چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                <div class="after"></div>
+                </div>
+        
+                <div class="p2-2">
+                    <div class="s-con">
+                        <div class="i-con">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <p>02100000000</p>
+                    </div>
+        
+                    <div class="s-con">
+                        <div class="i-con">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <p>تهران، خیابان ساختگی، کوچه ساختگی، پلاک 000، واحد 00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p3">
+                <div class="p3-1">
+                    <img src="./images/arm1.png" alt="arm-1">
+                    <img src="./images/arm2.png" alt="arm-2">
+                </div>
+                
+                <div class="p3-2">
+                    <a href="#">پیگیری سفارشات</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
